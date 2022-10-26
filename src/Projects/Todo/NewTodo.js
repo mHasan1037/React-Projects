@@ -14,8 +14,12 @@ const NewTodo = (props) => {
 
    const handleSubmit = (event) =>{
        event.preventDefault();
-       props.onAddTodo(todo)
-       setTodo({title: '', desc: ''})
+       if(todo.title === '' || todo.desc === ''){
+        alert('Please fill the form before submit')
+       }else{
+            props.onAddTodo(todo)
+            setTodo({title: '', desc: ''})
+       }
    }
 
   return (
