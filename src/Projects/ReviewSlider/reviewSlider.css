@@ -1,0 +1,65 @@
+.slider-body{
+    width: 50%;
+    margin: 50px auto;
+    background-color: rgb(224, 250, 224);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.underline{
+    width: 100px;
+    height: 4px;
+    background-color: rgb(45, 46, 44);
+    margin: 3px auto;
+    border-radius: 5px;
+}
+
+.reviewSlide-container{
+    margin: 20px auto;
+}
+
+.review-content{
+    text-align: center;
+    margin: 10px auto;
+}
+
+.review-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.review-btns{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.review-btn{
+    cursor: pointer;
+    color: rgb(124, 162, 233); 
+    font-size: 25px;
+    border: none;
+    background-color: transparent;
+    width: fit-content;
+}
+
+.review-btn:hover{
+    color: rgb(61, 121, 231);
+}
+
+.random-btn{
+    display: block;
+    margin: 10px auto 0px;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(124, 162, 233); 
+}
+
+.random-btn:hover{
+    background-color: rgb(61, 121, 231);
+}

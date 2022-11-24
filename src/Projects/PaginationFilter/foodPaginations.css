@@ -1,0 +1,23 @@
+.page-navigation{
+    width: 100%;
+    margin: 30px 0;
+}
+
+.page-ul{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style-type: none;
+}
+
+.page-ul li a{
+    text-decoration: none;
+    background-color: rgb(61, 185, 243);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.page-ul li a:hover{
+    background-color: rgb(0, 174, 255);
+}

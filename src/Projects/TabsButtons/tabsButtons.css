@@ -1,0 +1,38 @@
+.tabs-container{
+    margin: 30px auto;
+    width: 70%;
+    display: flex;
+    min-height: 300px;
+}
+
+.tabs-btns{
+    width: 20%;
+}
+
+.btn{
+    display: block;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.active{
+    border-left: 2px solid green;
+    border-bottom: 2px solid green;
+    color: green;
+}
+
+.tabs-content{
+    width: 80%;
+}
+
+.tab-para{
+    margin: 15px 0;
+}
+
+.tab-para p{
+    margin: 7px 0;
+}
