@@ -4,6 +4,7 @@ import TourDisplay from './Projects/TourList/TourDisplay';
 import TodoHome from './Projects/Todo/TodoHome';
 import ReviewSlider from './Projects/ReviewSlider/ReviewSlider';
 import PaginationFilter from './Projects/PaginationFilter/PaginationFilter';
+import TabsButtons from './Projects/TabsButtons/TabsButtons';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <PaginationFilter />
       <TodoHome />
       <ReviewSlider />
+      <TabsButtons />
       <TourDisplay />
       <BirthReminder />
     </div>
