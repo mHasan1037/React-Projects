@@ -5,10 +5,12 @@ import TodoHome from './Projects/Todo/TodoHome';
 import ReviewSlider from './Projects/ReviewSlider/ReviewSlider';
 import PaginationFilter from './Projects/PaginationFilter/PaginationFilter';
 import TabsButtons from './Projects/TabsButtons/TabsButtons';
+import AutoSlider from './Projects/AutoSlider/AutoSlider';
 
 function App() {
   return (
     <div>
+      <AutoSlider />
       <PaginationFilter />
       <TodoHome />
       <ReviewSlider />
