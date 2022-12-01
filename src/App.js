@@ -6,12 +6,14 @@ import ReviewSlider from './Projects/ReviewSlider/ReviewSlider';
 import PaginationFilter from './Projects/PaginationFilter/PaginationFilter';
 import TabsButtons from './Projects/TabsButtons/TabsButtons';
 import AutoSlider from './Projects/AutoSlider/AutoSlider';
+import GenerateText from './Projects/GenerateText/GenerateText';
 
 function App() {
   return (
     <div>
       <AutoSlider />
       <PaginationFilter />
+      <GenerateText />
       <TodoHome />
       <ReviewSlider />
       <TabsButtons />
