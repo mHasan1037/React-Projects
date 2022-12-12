@@ -3,6 +3,7 @@
     margin: 30px auto;
     background-color: rgb(197, 227, 253);
     padding: 50px 30px;
+    border-radius: 5px;
 }
 
 .generate-container form{

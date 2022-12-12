@@ -1,0 +1,95 @@
+.grocery-section{
+    margin: 50px auto;
+    width: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px;
+    position: relative;
+}
+.grocery-title{
+    text-align: center;
+    margin: 15px auto;
+}
+
+.grocery-form-control{
+    width: 100%;
+    display: flex;
+}
+
+.grocery-input{
+    flex: 1 0 auto;
+    padding: 7px 10px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid rgb(193, 196, 195);
+}
+
+.grocery-input:focus{
+    outline: none;
+    border-color: rgb(4, 192, 192);
+}
+
+.submit-btn{
+    border: none;
+    background-color: rgb(4, 192, 192);
+    width: 70px;
+    cursor: pointer;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+.submit-btn:hover{
+    background-color: rgb(10, 180, 180);
+}
+
+.alert{
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.alert-danger{
+    color: red;
+}
+
+.alert-success{
+    color: green;
+}
+
+.grocery-list-container{
+    margin: 15px 0;
+}
+
+.grocery-item{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.btn-container{
+    display: flex;
+    gap: 5px;
+}
+
+.btn-container button{
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.edit-btn{
+    color: rgb(49, 190, 49);
+}
+
+.delete-btn{
+    color: rgb(245, 104, 104);
+}
+
+.clear-btn{
+    display: block;
+    margin: 0 auto;
+    border: none;
+    background-color: transparent;
+    color: rgb(245, 94, 94);
+    font-weight: bold;
+    cursor: pointer;
+}

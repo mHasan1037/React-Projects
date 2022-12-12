@@ -7,10 +7,12 @@ import PaginationFilter from './Projects/PaginationFilter/PaginationFilter';
 import TabsButtons from './Projects/TabsButtons/TabsButtons';
 import AutoSlider from './Projects/AutoSlider/AutoSlider';
 import GenerateText from './Projects/GenerateText/GenerateText';
+import GroceryList from './Projects/GroceryList/GroceryList';
 
 function App() {
   return (
     <div>
+      <GroceryList />
       <AutoSlider />
       <PaginationFilter />
       <GenerateText />
