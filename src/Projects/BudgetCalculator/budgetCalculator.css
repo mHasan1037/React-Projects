@@ -1,0 +1,151 @@
+.budget-main-container{
+    width: 60%;
+    min-width: 600px;
+    margin: 20px auto;
+    background-color: rgb(228, 244, 255);
+    padding: 20px 25px;
+    position: relative;
+}
+
+.budget-title{
+    text-align: center;
+    padding: 10px;
+    color:rgb(62, 65, 59);
+}
+
+.budget-Item{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(224, 224, 224);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+}
+
+.budget-Item:hover{
+    transform: scale(1.01);
+}
+
+.bud-amountCharge{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.bud-charge{
+    font-size: 18px;
+    width: 50%;
+}
+
+.bud-amount{
+     background-color: orangered;
+     display: grid;
+     place-content: center;
+     padding: 5px;
+     color: white;
+     font-weight: bold;
+     border-radius: 5px;
+}
+
+.bud-itmeBtns button{
+     background-color: transparent;
+     border: none;
+     cursor: pointer;
+     margin: 0 2px;
+     font-size: 15px;
+}
+
+.bud-editBtn{
+    color: green;
+}
+
+.bud-DeleteBtn{
+    color: red;
+}
+
+.clearBtn{
+    display: block;
+    margin: 0 auto;
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px; 
+}
+
+.bud-total{
+    text-align: center;
+    margin: 15px;
+}
+
+.bud-total span{
+    background-color: orangered;
+    color: white;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.budAlert{
+    position: absolute;
+    top: 7px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.budAlert.success{
+    color: green;
+}
+
+.budAlert.danger{
+    color: red;
+}
+
+.bud-formBox{
+    display: flex;
+    gap: 10px;
+}
+
+.bud-formBox .form-control{
+    flex: 1;
+}
+
+.form-control input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(141, 141, 141);
+    background-color: transparent;
+    padding: 5px;
+}
+
+.form-control label{
+    font-size: 17px;
+    color: rgb(131, 129, 129);
+}
+
+.form-control input:focus{
+    outline: none;
+}
+
+.bud-submit{
+    display: block;
+    margin: 10px auto;
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px; 
+}
+
+@media only screen and (max-width: 600px){
+    .budget-main-container{
+        min-width: 100%;
+    }
+}

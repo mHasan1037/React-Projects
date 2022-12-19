@@ -8,10 +8,12 @@ import TabsButtons from './Projects/TabsButtons/TabsButtons';
 import AutoSlider from './Projects/AutoSlider/AutoSlider';
 import GenerateText from './Projects/GenerateText/GenerateText';
 import GroceryList from './Projects/GroceryList/GroceryList';
+import BudgetCalculator from './Projects/BudgetCalculator/BudgetCalculator';
 
 function App() {
   return (
     <div>
+      <BudgetCalculator />
       <GroceryList />
       <AutoSlider />
       <PaginationFilter />
