@@ -37,6 +37,7 @@ const PasswordGenerator = () => {
 
   return (
     <div className={style.passwordWrapper}>
+        <a target='_blank' href="https://github.com/mHasan1037/React-Projects/tree/main/src/Projects/PasswordGenerator" className={style.codeUrl}>Check Code</a>
         <div className={style.passwordContainer}>
             {/*password and copy btn*/}
             {password && (
@@ -81,7 +82,7 @@ const PasswordGenerator = () => {
             <PasswordStrengthCheck password={password}/>
 
             {/*Error Message*/}
-            <div>
+            <div className={style.errorMessage}>
             {errorMessage}
             </div>
 
