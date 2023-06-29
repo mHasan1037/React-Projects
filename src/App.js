@@ -7,11 +7,12 @@ import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/React-Projects'>
         <Navbar />
         <Routes>
             <Route path="/budgetcalculator" element={<BudgetCalculator />} />
             <Route path="/passwordgenerator" element={<PasswordGenerator />} />
+            <Route path="*" element={<PasswordGenerator />} />
         </Routes>
     </BrowserRouter>
   );
