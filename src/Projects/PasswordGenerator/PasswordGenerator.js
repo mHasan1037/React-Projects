@@ -34,6 +34,14 @@ const PasswordGenerator = () => {
         }, 1000)
     }
 
+    const onSubmitPassword = () =>{
+        generatePassword(length, checkboxData)
+        setLength(4)
+        const updatedCheckbox = [...checkboxData]
+        updatedCheckbox = updatedCheckbox.map(checkbox => checkbox.state = false)
+        setCheckboxData(updatedCheckbox)
+    }
+
 
   return (
     <div className={style.passwordWrapper}>
@@ -42,7 +50,7 @@ const PasswordGenerator = () => {
             {/*password and copy btn*/}
             {password && (
             <div className={style.passwordDisplay}>
-                <h2>[ {password} ]</h2>
+                <h2> {password} </h2>
                 <Button 
                 text={copied ? "Copied" : 'Copy'}
                 onClick = {handleCopy}
@@ -88,7 +96,7 @@ const PasswordGenerator = () => {
 
             {/*Generate password button*/}
             <Button
-                onClick={()=> generatePassword(length, checkboxData)}
+                onClick={onSubmitPassword}
                 text="Generate Password"
                 customeClass = {style.btnGenerate}
             />

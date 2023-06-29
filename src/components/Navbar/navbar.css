@@ -1,0 +1,11 @@
+.mainNav{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.mainNav ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
